@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tipping Table", "Tipping Table\Tipping Table.csproj", "{ABA669BF-6708-4192-8838-369816ECBAAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA669BF-6708-4192-8838-369816ECBAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA669BF-6708-4192-8838-369816ECBAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA669BF-6708-4192-8838-369816ECBAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA669BF-6708-4192-8838-369816ECBAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B68C2BC-450A-48A9-AB88-81C12B7EF7B6}
+	EndGlobalSection
+EndGlobal
