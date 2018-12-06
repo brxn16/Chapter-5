@@ -24,22 +24,21 @@ namespace TestScores
                 WriteLine("Please enter your test scores. Type 999 to show your average score.");
                 testString = ReadLine();
                 test = Convert.ToInt32(testString);
-                count++;
-                total = test + total;
                 if (test < MAX && test > MIN)
                 {
-                    WriteLine("Valid Score.");
+                    total = test + total;
+                    count++;
                 }
-                else
+                else if(test == 999)
                 {
                     WriteLine("Invalid Score.");
                     Invalid++;
+                    average = total / count;
+                    WriteLine("The average is " + average);
                 }
-                count = count - Invalid;
-                average = total / count;
-
+              
             }
-            WriteLine("The average is " + average);
+           
 
         }
     }
